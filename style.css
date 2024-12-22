@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene {
+  position: relative;
+}
+
+/* Snowman */
+.snowman {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.snowman .head,
+.snowman .body {
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid #ccc;
+}
+
+.snowman .head {
+  width: 80px;
+  height: 80px;
+  top: 0;
+  left: 35px;
+}
+
+.snowman .body {
+  width: 120px;
+  height: 120px;
+  top: 60px;
+  left: 10px;
+}
+
+.snowman .buttons .button {
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.snowman .buttons .button:nth-child(1) {
+  top: 30px;
+  left: 52px;
+}
+
+.snowman .buttons .button:nth-child(2) {
+  top: 55px;
+  left: 52px;
+}
+
+.snowman .buttons .button:nth-child(3) {
+  top: 80px;
+  left: 52px;
+}
+
+.snowman .eyes .eye {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.snowman .eyes .eye:nth-child(1) {
+  left: 20px;
+}
+
+.snowman .eyes .eye:nth-child(2) {
+  left: 50px;
+}
+
+.snowman .nose {
+  width: 15px;
+  height: 15px;
+  background: orange;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 35px;
+  transform: rotate(45deg);
+}
+
+/* Christmas Tree */
+.tree {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tree .star {
+  width: 20px;
+  height: 20px;
+  background: gold;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  margin-bottom: 5px;
+}
+
+.tree .branch {
+  background: green;
+  border-radius: 10px;
+  margin-bottom: -15px;
+}
+
+.tree .branch1 {
+  width: 120px;
+  height: 30px;
+}
+
+.tree .branch2 {
+  width: 90px;
+  height: 30px;
+}
+
+.tree .branch3 {
+  width: 60px;
+  height: 30px;
+}
+
+.tree .trunk {
+  width: 30px;
+  height: 50px;
+  background: brown;
+  border-radius: 5px;
+}
+
+.tree .lights .light {
+  width: 10px;
+  height: 10px;
+  background: yellow;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.tree .lights .light:nth-child(1) {
+  top: -5px;
+  left: 30px;
+}
+
+.tree .lights .light:nth-child(2) {
+  top: 10px;
+  left: 60px;
+}
+
+.tree .lights .light:nth-child(3) {
+  top: 25px;
+  left: 20px;
+}
