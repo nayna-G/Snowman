@@ -11,6 +11,8 @@ body {
 
 .scene {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 /* Snowman */
@@ -139,12 +141,10 @@ body {
   border-radius: 5px;
 }
 
-.tree .lights .light {
-  width: 10px;
-  height: 10px;
-  background: yellow;
-  border-radius: 50%;
-  position: absolute;
+.tree .lights{
+  position: relative;
+  width: 100px;
+  height: 30px;
 }
 
 .tree .lights .light:nth-child(1) {
