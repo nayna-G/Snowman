@@ -26,8 +26,8 @@ body {
 .snowman .body {
   background: white;
   border-radius: 50%;
-  position: absolute;
   border: 2px solid #ccc;
+  position: absolute;
 }
 
 .snowman .head {
@@ -42,29 +42,6 @@ body {
   height: 120px;
   top: 60px;
   left: 10px;
-}
-
-.snowman .buttons .button {
-  width: 15px;
-  height: 15px;
-  background: black;
-  border-radius: 50%;
-  position: absolute;
-}
-
-.snowman .buttons .button:nth-child(1) {
-  top: 30px;
-  left: 52px;
-}
-
-.snowman .buttons .button:nth-child(2) {
-  top: 55px;
-  left: 52px;
-}
-
-.snowman .buttons .button:nth-child(3) {
-  top: 80px;
-  left: 52px;
 }
 
 .snowman .eyes .eye {
@@ -95,7 +72,30 @@ body {
   transform: rotate(45deg);
 }
 
-/* Christmas Tree */
+.snowman .buttons .button {
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.snowman .buttons .button:nth-child(1) {
+  top: 30px;
+  left: 52px;
+}
+
+.snowman .buttons .button:nth-child(2) {
+  top: 55px;
+  left: 52px;
+}
+
+.snowman .buttons .button:nth-child(3) {
+  top: 80px;
+  left: 52px;
+}
+
+/* Tree */
 .tree {
   position: absolute;
   bottom: 50px;
@@ -141,23 +141,32 @@ body {
   border-radius: 5px;
 }
 
-.tree .lights{
+/* Lights */
+.lights {
   position: relative;
   width: 100px;
   height: 30px;
 }
 
-.tree .lights .light:nth-child(1) {
+.light {
+  width: 10px;
+  height: 10px;
+  background: yellow;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.light1 {
   top: -5px;
   left: 30px;
 }
 
-.tree .lights .light:nth-child(2) {
+.light2 {
   top: 10px;
   left: 60px;
 }
 
-.tree .lights .light:nth-child(3) {
+.light3 {
   top: 25px;
   left: 20px;
 }
